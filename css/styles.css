@@ -17,18 +17,23 @@ body {
 
 .left-banner {
     width: 60%;
+   position: absolute;
+   left: 1000px;
+   top: 100px;
+   
 }
 
 
 .right-banner {
     font-size: 150%;
-    padding: 70px;
+   
+
 }
 
 
 .footer {
     background-color: #D0B6A8;
-    text-align: center;
+    
     padding: 30px;
 }
 
@@ -37,23 +42,38 @@ body {
     background-color: #2F180C;
     color: khaki;
     height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+   
+    
+    
+    
 }
 
 
 .main-rg-img {
-    height: 350px;
+    height: 60%;
+    width: 350px;
 }
 
 
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+}
+.login-label, .login-input, .login-btn {
+    width: 100%;
+    margin: 5px 0;
+}
 .login-btn {
-    margin: 10px;
-    padding: 5px;
+    padding: 10px;
     background-color: #2F180C;
     color: khaki;
     border: none;
     cursor: pointer;
+    text-align: center;
+}
+.login-title {
+    text-align: center;
 }
